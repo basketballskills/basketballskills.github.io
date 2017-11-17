@@ -3,6 +3,7 @@
 <HEAD>
 	<TITLE> Basketball Teaching Website </TITLE>
 	<STYLE type='text/css'>
+
 		#bigvid{
 			
 		}
@@ -45,10 +46,21 @@
 			left: 58%;
 			top: 10%;
 		}
+		#bg{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			z-index: -1;
+		}
 
 	</STYLE>
 </HEAD>
-<BODY bgcolor=white>
+<BODY bgcolor=white >
+
+<IMG src='basketball .png' id='bg'></IMG>
+
+										  >
+
 
 
 <FONT color='#' size='3' face= Arial id='text1'>
@@ -72,7 +84,7 @@
 1. Eyes on Target<BR>
 2. Stance and Balance<BR>
 3, Shot Pocket<BR>
-4. Grip<BR>
+
 5. Balance Hand<BR>
 6. Upforce and Landing<BR>
 7.Follow Through<BR>
@@ -109,15 +121,16 @@ Run more so it makes your feet steadier and stronger
 <TABLE>
 	<TR>
 		<TD><IMG src='red button.png' width=30 name='circle1' id='circle1' onclick="document.getElementById('bigvid').src ='bballvideos/Layup.MOV';document.getElementById('catchandshoot').load();circle1.src='red button.png';circle2.src='blue button.jpg';circle3.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='1';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
-		<TD><IMG src='blue button.jpg' width=30 name='circle2' onclick="document.getElementById('bigvid').src ='bballvideos/free throw copy.MOV';document.getElementById('catchandshoot').load();circle2.src='red button.png';circle1.src='blue button.jpg';circle3.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='1';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
-		<TD><IMG src='blue button.jpg' width=30 name='circle3' onclick="document.getElementById('bigvid').src ='bballvideos/Box Out copy.MOV';document.getElementById('catchandshoot').load();circle3.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='1';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
-		<TD><IMG src='blue button.jpg' width=30 name='circle4' onclick="document.getElementById('bigvid').src ='bballvideos/Man to Man Defense copy.MOV';document.getElementById('catchandshoot').load();circle4.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle3.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='1';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
-		<TD><IMG src='blue button.jpg' width=30 name='circle5' onclick="document.getElementById('bigvid').src ='bballvideos/Between the legs copy.MOV';document.getElementById('catchandshoot').load();circle5.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle4.src='blue button.jpg';circle3.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='1';document.getElementById('text6').style.opacity='0';"></TD>
-		<TD><IMG src='blue button.jpg' width=30 name='circle6' onclick="document.getElementById('bigvid').src ='bballvideos/Back Dribble copy.MOV';document.getElementById('catchandshoot').load();circle6.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle3.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='1';<IMG src="behind the back dribble.jpg">></TR>
-
+		<TD><IMG src='blue button.jpg' width=30 name='circle2' onclick="document.getElementById('bigvid').src ='bballvideos/free throw.MOV';document.getElementById('catchandshoot').load();circle2.src='red button.png';circle1.src='blue button.jpg';circle3.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='1';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
+		<TD><IMG src='blue button.jpg' width=30 name='circle3' onclick="document.getElementById('bigvid').src ='bballvideos/Box Out.MOV';document.getElementById('catchandshoot').load();circle3.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='1';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
+		<TD><IMG src='blue button.jpg' width=30 name='circle4' onclick="document.getElementById('bigvid').src ='bballvideos/Man to Man Defense.MOV';document.getElementById('catchandshoot').load();circle4.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle3.src='blue button.jpg';circle5.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='1';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='0';"></TD>
+		<TD><IMG src='blue button.jpg' width=30 name='circle5' onclick="document.getElementById('bigvid').src ='bballvideos/Between the legs.MOV';document.getElementById('catchandshoot').load();circle5.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle4.src='blue button.jpg';circle3.src='blue button.jpg';circle6.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='1';document.getElementById('text6').style.opacity='0';"></TD>
+		<TD><IMG src='blue button.jpg' width=30 name='circle6' onclick="document.getElementById('bigvid').src ='bballvideos/Back Dribble.MOV';document.getElementById('catchandshoot').load();circle6.src='red button.png';circle1.src='blue button.jpg';circle2.src='blue button.jpg';circle4.src='blue button.jpg';circle5.src='blue button.jpg';circle3.src='blue button.jpg';document.getElementById('text1').style.opacity='0';document.getElementById('text2').style.opacity='0';document.getElementById('text3').style.opacity='0';document.getElementById('text4').style.opacity='0';document.getElementById('text5').style.opacity='0';document.getElementById('text6').style.opacity='1';"></TD>
+	</TR>
 
 
 </TABLE>
+
 
 
 </BODY>
